@@ -1,9 +1,12 @@
-<h1> hello everyone </h1>
-</br>
-<pre>
+<html>
+<body>
+<h1>Hello World!</h1>
+<h5><b>This is Aakash Sharma</b></h5>
 <?php
-
-print `ifconfig`;
-
+   $firstline=`head -n1 path.txt`;          
+   $path_img="https://".$firstline."/sun.png";
+   echo "<br>";
+   echo "<img src='{$path_img}' width=500 height=500>";
 ?>
-</pre>
+</body>
+</html>
